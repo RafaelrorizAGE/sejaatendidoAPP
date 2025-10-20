@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/drawable_splash.xml.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/drawable/splash.xml"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/xml_config.xml.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/xml/config.xml"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/xml_file_paths.xml.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/xml/file_paths.xml"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "app.lovable.appointsyncmobile.app-merged_res-26:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "app.lovable.appointsyncmobile.app-main-28:/mipmap-hdpi/ic_launcher_round.webp"
+    }
+]

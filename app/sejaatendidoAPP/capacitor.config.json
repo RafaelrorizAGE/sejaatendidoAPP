@@ -1,0 +1,6 @@
+{
+  "appId": "com.sejaatendido.app",
+  "appName": "Seja Atendido",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

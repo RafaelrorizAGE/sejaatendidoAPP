@@ -1,0 +1,1 @@
+import { Router } from 'express'; const r = Router(); r.get('/medicos/pendentes', async (req,res)=>res.json([])); export default r;

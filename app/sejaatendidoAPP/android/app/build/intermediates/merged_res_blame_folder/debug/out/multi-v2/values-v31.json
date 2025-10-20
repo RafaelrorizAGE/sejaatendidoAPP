@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "app.lovable.appointsyncmobile.app-mergeDebugResources-24:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Hipocritamachine 2.0\\.gradle\\caches\\8.12\\transforms\\3e644a21473a1b11cf3e5a689d540cbd\\transformed\\jetified-core-splashscreen-1.0.1\\res\\values-v31\\values-v31.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,473",
+                        "endLines": "8,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "468,697"
+                    }
+                }
+            ]
+        }
+    ]
+}

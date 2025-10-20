@@ -1,0 +1,1 @@
+Integration instructions: set VITE_API_URL in frontend .env to backend URL, run prisma migrate, seed, start backend, then run frontend.
