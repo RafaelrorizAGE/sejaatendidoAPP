@@ -1,0 +1,1 @@
+import { Router } from 'express'; const r = Router(); r.post('/pix', async (req,res)=>res.json({pix:'stub'})); export default r;

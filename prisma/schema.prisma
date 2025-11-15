@@ -1,0 +1,92 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Usuario {
+  id        String   @id @default(uuid())
+  nome      String
+  email     String   @unique
+  senhaHash String
+  tipo      TipoUsuario
+  medico    Medico?
+  paciente  Paciente?
+  criadoEm  DateTime @default(now())
+}
+
+enum TipoUsuario {
+  PACIENTE
+  MEDICO
+  ADMIN
+}
+
+model Medico {
+  id             String   @id @default(uuid())
+  usuarioId      String   @unique
+  crm            String
+  especialidades String[]
+  aprovado       Boolean  @default(false)
+  documentos     Documento[]
+  consultas      Consulta[]
+  usuario        Usuario   @relation(fields:[usuarioId], references:[id])
+}
+
+model Paciente {
+  id        String @id @default(uuid())
+  usuarioId String @unique
+  usuario   Usuario @relation(fields:[usuarioId], references:[id])
+  consultas Consulta[]
+}
+
+model Consulta {
+  id         String   @id @default(uuid())
+  medicoId   String
+  pacienteId String
+  data       DateTime
+  motivo     String
+  status     StatusConsulta @default(PENDENTE)
+  meetLink   String?
+  pagamento  Pagamento?
+  medico     Medico   @relation(fields:[medicoId], references:[id])
+  paciente   Paciente @relation(fields:[pacienteId], references:[id])
+}
+
+model Pagamento {
+  id            String  @id @default(uuid())
+  consultaId    String  @unique
+  metodo        MetodoPagamento
+  valorCentavos Int
+  status        StatusPagamento @default(AGUARDANDO)
+  transacaoId   String?
+  consulta      Consulta @relation(fields:[consultaId], references:[id])
+}
+
+model Documento {
+  id       String @id @default(uuid())
+  medicoId String
+  url      String
+  tipo     String
+  medico   Medico  @relation(fields:[medicoId], references:[id])
+}
+
+enum StatusConsulta {
+  PENDENTE
+  ACEITA
+  RECUSADA
+  CONCLUIDA
+  CANCELADA
+}
+
+enum MetodoPagamento {
+  PIX
+  CARTAO
+}
+
+enum StatusPagamento {
+  AGUARDANDO
+  PAGO
+  FALHOU
+}
