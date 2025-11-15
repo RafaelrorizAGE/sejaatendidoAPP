@@ -1,1 +1,0 @@
-import { Router } from 'express'; const r = Router(); r.get('/', async (req,res)=>res.json([])); export default r;
